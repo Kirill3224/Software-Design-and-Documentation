@@ -1,4 +1,4 @@
-### Part 1 — Component Diagram
+## Part 1 — Component Diagram
 
 ```mermaid
 graph TD
@@ -20,7 +20,9 @@ graph TD
     ModerationService --> MessageService
 ```
 
-### Part 2 — Sequence Diagram
+---
+
+## Part 2 — Sequence Diagram
 
 ```mermaid
 sequenceDiagram
@@ -50,7 +52,13 @@ sequenceDiagram
   Mds-->>Admin: 200 OK "Message Hidden"
 ```
 
-### Part 3 — State Diagram
+---
+
+## Part 3 — State Diagram
+
+### Object
+
+`message`
 
 ```mermaid
 stateDiagram-v2
